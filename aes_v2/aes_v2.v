@@ -191,10 +191,10 @@ module aes_v2(
 
   // aes state
   parameter INITIAL     = 3'd0;
-  parameter ADDROUNDKEY = 3'd1; // ROTWORD
-  parameter SUBBYTES    = 3'd2; // SUBWORD
-  parameter SHIFTROWS   = 3'd3; // RCON
-  parameter MIXCOLUMNS  = 3'd4;
+  parameter ADDROUNDKEY = 3'd1;
+  parameter SUBBYTES    = 3'd2; // ROTWORD
+  parameter SHIFTROWS   = 3'd3; // SUBWORD 
+  parameter MIXCOLUMNS  = 3'd4; // RCON
   //
 
   // logic
